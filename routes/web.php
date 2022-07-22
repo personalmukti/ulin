@@ -13,7 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [App\Http\Controllers\Landing::class, 'index'])->name('landing');
+Route::get('/', [App\Http\Controllers\Landing::class, 'index'])->name('homepage');
+
+Route::get('/our-works', [App\Http\Controllers\Landing::class, 'projects'])->name('project');
 
 /*Route::get('/', function () {
     return view('welcome');

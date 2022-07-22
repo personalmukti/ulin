@@ -1,90 +1,38 @@
-<!DOCTYPE html>
-<html lang="zxx">
 
-<head>
-  <meta charset="utf-8">
-  <title>Landing | {{ config('app.name') }}</title>
+@extends('landing.layout.app')
 
-  <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+@section('content')
 
-  <!-- ** Plugins Needed for the Project ** -->
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="assets/dtox-1.0.0/plugins/bootstrap/bootstrap.min.css">
-  <!-- themefy-icon -->
-  <link rel="stylesheet" href="assets/dtox-1.0.0/plugins/themify-icons/themify-icons.css">
-  <!-- slick slider -->
-  <link rel="stylesheet" href="assets/dtox-1.0.0/plugins/slick/slick.css">
-  <!-- venobox popup -->
-  <link rel="stylesheet" href="assets/dtox-1.0.0/plugins/Venobox/venobox.css">
-  <!-- aos -->
-  <link rel="stylesheet" href="assets/dtox-1.0.0/plugins/aos/aos.css">
+    <!-- hero area -->
+    @include('landing.partial.hero')
+    <!-- /hero-area -->
 
-  <!-- Main Stylesheet -->
-  <link href="assets/dtox-1.0.0/css/style.css" rel="stylesheet">
+    <!-- feature -->
+    @include('landing.partial.feature')
+    <!-- /feature -->
 
-  <!--Favicon-->
-  <link rel="shortcut icon" href="assets/dtox-1.0.0/images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="assets/dtox-1.0.0/images/favicon.ico" type="image/x-icon">
+    <!-- marketing -->
+    @include('landing.partial.marketing')
+    <!-- /marketing -->
 
-</head>
+    <!-- service -->
+    @include('landing.partial.service')
+    <!-- /service -->
 
-<body>
+    <!-- team -->
+    @include('landing.partial.team')
+    <!-- /team -->
 
+    <!-- pricing -->
 
-<!-- navigation -->
-@include('landing.partial.navigation')
-<!-- /navigation -->
+    <!-- /pricing -->
 
-<!-- hero area -->
-@include('landing.partial.hero')
-<!-- /hero-area -->
+    <!-- client logo slider -->
+    @include('landing.partial.client')
+    <!-- /client logo slider -->
 
-<!-- feature -->
-@include('landing.partial.feature')
-<!-- /feature -->
+    <!-- newsletter -->
+    @include('landing.partial.newsletter')
+    <!-- /newsletter -->
 
-<!-- marketing -->
-@include('landing.partial.marketing')
-<!-- /marketing -->
-
-<!-- service -->
-@include('landing.partial.service')
-<!-- /service -->
-
-<!-- team -->
-@include('landing.partial.team')
-<!-- /team -->
-
-<!-- pricing -->
-
-<!-- /pricing -->
-
-<!-- client logo slider -->
-@include('landing.partial.client')
-<!-- /client logo slider -->
-
-<!-- newsletter -->
-@include('landing.partial.newsletter')
-<!-- /newsletter -->
-
-<!-- footer -->
-@include('landing.partial.footer')
-<!-- /footer -->
-
-<!-- jQuery -->
-<script src="assets/dtox-1.0.0/plugins/jQuery/jquery.min.js"></script>
-<!-- Bootstrap JS -->
-<script src="assets/dtox-1.0.0/plugins/bootstrap/bootstrap.min.js"></script>
-<!-- slick slider -->
-<script src="assets/dtox-1.0.0/plugins/slick/slick.min.js"></script>
-<!-- venobox -->
-<script src="assets/dtox-1.0.0/plugins/Venobox/venobox.min.js"></script>
-<!-- aos -->
-<script src="assets/dtox-1.0.0/plugins/aos/aos.js"></script>
-<!-- Main Script -->
-<script src="assets/dtox-1.0.0/js/script.js"></script>
-
-</body>
-</html>
+@endsection
