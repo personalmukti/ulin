@@ -2,14 +2,14 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Subscribe to our newsletter</h2>
-        <p class="mb-5">Receive updates, news and deals</p>
+        <h2>Berlangganan Informasi</h2>
+        <p class="mb-5">Dapatkan update informasi seputar penawaran terbaik kami.</p>
       </div>
       <div class="col-lg-8 col-sm-10 col-12 mx-auto">
         <form action="#">
           <div class="input-wrapper position-relative">
             <input type="email" class="newsletter-form" id="newsletter" placeholder="Enter your email">
-            <button type="submit" value="send" class="btn newsletter-btn">subscribe</button>
+            <button type="submit" value="send" class="btn newsletter-btn">Berlangganan</button>
           </div>
         </form>
       </div>

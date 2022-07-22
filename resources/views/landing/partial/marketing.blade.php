@@ -7,12 +7,8 @@
         </div>
       </div>
       <div class="col-md-5">
-        <h2 class="section-title">A Complete Range Of SEO Marketing Services!</h2>
-        <p>Far far away, behind the word mountains, far
-          from the countries Vokalia and Consonantia.<br>
-          There live the blind texts. Separated they
-          live in Bookmarksgrove right at the coast of
-          the Semantics, a large language ocean.
+        <h2 class="section-title">Layanan dan Laporan Progress Menyeluruh!</h2>
+        <p>Setiap pengerjaan project selalu berdasarkan permintaan client. Selain itu setiap progress pengerjaan akan dilaporkan secara menyeluruh sehingga para client dapat melakukan pelacakan sejauh mana project telah dikerjakan. Dengan demikian seluruh progres pekerjaan dapat terkontrol dan mudah diatur.
         </p>
       </div>
     </div>

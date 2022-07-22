@@ -58,7 +58,7 @@
 <!-- /team -->
 
 <!-- pricing -->
-@include('landing.partial.pricing')
+
 <!-- /pricing -->
 
 <!-- client logo slider -->

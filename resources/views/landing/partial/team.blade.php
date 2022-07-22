@@ -2,9 +2,8 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-title">Our Team</h2>
-        <p class="mb-100">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu<br>
-          fugiat nulla pariatur. Excepteur sint occaecat </p>
+        <h2 class="section-title">Tim Kami</h2>
+        <p class="mb-100">Tim kami terdiri dari para analis, programmer, desainer, ahli basis data, teknisi dan berbagai bidang yang terkait pekerjaan di Perusahaan kami.</p>
       </div>
     </div>
     <div class="col-10 mx-auto">
@@ -16,11 +15,11 @@
               <img class="rounded-circle img-fluid" src="assets/dtox-1.0.0/images/team/team-1.jpg" alt="team-member">
             </div>
             <div class="align-self-center">
-              <h4>Becroft</h4>
+              <h4>[ Nama ]</h4>
               <h6 class="text-color">web designer</h6>
             </div>
           </div>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. S eparated they</p>
+          <p>Berpengalaman lebih dari 5 tahun dalam bidang web desainer.</p>
         </div>
         <!-- team-member -->
         <div class="team-member">
@@ -29,11 +28,11 @@
               <img class="rounded-circle img-fluid" src="assets/dtox-1.0.0/images/team/team-2.jpg" alt="team-member">
             </div>
             <div class="align-self-center">
-              <h4>John Doe</h4>
+              <h4>[ Nama ]</h4>
               <h6 class="text-color">web developer</h6>
             </div>
           </div>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. S eparated they</p>
+          <p>Telah banyak mengembangkan aplikasi web sepanjang karirnya.</p>
         </div>
         <!-- team-member -->
         <div class="team-member">
@@ -42,12 +41,11 @@
               <img class="rounded-circle img-fluid" src="assets/dtox-1.0.0/images/team/team-3.jpg" alt="team-member">
             </div>
             <div class="align-self-center">
-              <h4>Erik Ligas</h4>
+              <h4>[ Nama ]</h4>
               <h6 class="text-color">Programmer</h6>
             </div>
           </div>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
-            the blind texts. S eparated they</p>
+          <p>Peraih penghargaan programmer handal tahun 2022.</p>
         </div>
         <!-- team-member -->
         <div class="team-member">
@@ -56,12 +54,11 @@
               <img class="rounded-circle img-fluid" src="assets/dtox-1.0.0/images/team/team-1.jpg" alt="team-member">
             </div>
             <div class="align-self-center">
-              <h4>Erik Ligas</h4>
+              <h4>[ Nama ]</h4>
               <h6 class="text-color">Programmer</h6>
             </div>
           </div>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
-            the blind texts. S eparated they</p>
+          <p>Sudah banyak melakukan manajemen proyek pengembangan aplikasi.</p>
         </div>
         <!-- team-member -->
         <div class="team-member">
@@ -70,11 +67,11 @@
               <img class="rounded-circle img-fluid" src="assets/dtox-1.0.0/images/team/team-2.jpg" alt="team-member">
             </div>
             <div class="align-self-center">
-              <h4>John Doe</h4>
-              <h6 class="text-color">web developer</h6>
+              <h4>[ Nama ]</h4>
+              <h6 class="text-color">analis</h6>
             </div>
           </div>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. S eparated they</p>
+          <p>Berpengalaman dalam bidang analisis dan merancang produk terbaik.</p>
         </div>
       </div>
     </div>
