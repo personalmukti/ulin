@@ -13,9 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', [App\Http\Controllers\Landing::class, 'index'])->name('landing');
+
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
 
 Auth::routes();
 

@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                   @lang('models/projects.plural')
+                   <h3>Project Management</h3>
                 </div>
                 <div class="col-sm-6">
                     <a class="btn btn-primary float-right"
@@ -29,7 +29,7 @@
 
                 <div class="card-footer clearfix float-right">
                     <div class="float-right">
-                        
+
                     </div>
                 </div>
             </div>
