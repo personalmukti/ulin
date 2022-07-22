@@ -4,8 +4,8 @@
       <div class="col-lg-12 text-center zindex-1">
         <h1 class="mb-3">Selamat datang di<br>
           {{ config('app.name') }}</h1>
-        <p class="mb-4">Sistem Manajemen Project Pengembangan Aplikasi</p>
-        <a href="#" class="btn btn-secondary btn-lg">Jelajahi Project Kami</a>
+        <p class="mb-4">Sistem Manajemen Project Pengembangan Aplikasi Client AD Games & Softworks</p>
+        <!-- <a href="#" class="btn btn-secondary btn-lg">Jelajahi Project Kami</a> -->
         <!-- banner image -->
         <img class="img-fluid w-100 banner-image" src="assets/dtox-1.0.0/images/hero-area/banner-img.png" alt="banner-img">
       </div>
