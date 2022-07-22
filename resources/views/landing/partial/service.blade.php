@@ -2,16 +2,12 @@
   <div class="container">
     <div class="row justify-content-between">
       <div class="col-md-5 order-2 order-md-1">
-        <h2 class="section-title">Powerful Layout From Top To Bottom</h2>
-        <p class="mb-4">Far far away, behind the word mountains,
-          far from the countries Vokalia and Consonantia,
-          there live the blind texts. Separated they
-          live in Bookmarksgrove right at the coast of the
-          Semantics, a large language ocean.</p>
+        <h2 class="section-title">Mekanisme Pembayaran Fleksibel</h2>
+        <p class="mb-4">Layanan finansial untuk para client yang kami sediakan adalah layanan pembayaran multi-platform dimana kami mempermudah pembayaran untuk setiap project melalui berbagai kanal pembayaran yang aman dan terpercaya. Cukup dengan 3 langkah mudah.</p>
         <ul class="pl-0 service-list">
-          <li><i class="ti-layout-tab-window text-purple"></i>Responsive on any device</li>
-          <li><i class="ti-layout-placeholder text-purple"></i>Very easy to customize</li>
-          <li><i class="ti-support text-purple"></i>Effective support</li>
+          <li><i class="ti-layout-tab-window text-purple"></i>Pesan Project</li>
+          <li><i class="ti-layout-placeholder text-purple"></i>Sediakan Data Awal</li>
+          <li><i class="ti-support text-purple"></i>Tunggu tim kami menghubungi anda.</li>
         </ul>
       </div>
       <div class="col-md-7 order-1 order-md-2">
