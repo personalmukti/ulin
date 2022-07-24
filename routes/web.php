@@ -42,3 +42,5 @@ Route::post(
 )->name('io_generator_builder_generate_from_file');
 
 Route::resource('projects', App\Http\Controllers\ProjectController::class);
+
+

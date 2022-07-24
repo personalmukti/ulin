@@ -35,7 +35,7 @@
 <div class="login-box">
     <div class="login-logo">
         <a href="{{ url('/home') }}">
-        <img src="assets/dtox-1.0.0/images/lock.png" width="100px" height="100px" alt="lock-alt"></a>
+        <img src="assets/dtox-1.0.0/images/logo.png" width="100px" height="100px" alt="lock-alt"></a>
     </div>
 
     <!-- /.login-logo -->

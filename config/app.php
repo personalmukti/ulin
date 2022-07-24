@@ -169,6 +169,7 @@ return [
         Yajra\DataTables\ButtonsServiceProvider::class,
         Yajra\DataTables\HtmlServiceProvider::class,
         InfyOm\GeneratorBuilder\GeneratorBuilderServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -236,7 +237,7 @@ return [
         'Html' => Collective\Html\HtmlFacade::class,
         'Flash' => Laracasts\Flash\Flash::class,
         'DataTables' => Yajra\DataTables\Facades\DataTables::class,
-
+        'Image' => Intervention\Image\Facades\Image::class,
 
     ],
 
