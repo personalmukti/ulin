@@ -22,3 +22,12 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::resource('projects', App\Http\Controllers\API\ProjectAPIController::class);
 
 
+
+
+Route::resource('perencanaans', App\Http\Controllers\API\PerencanaanAPIController::class);
+
+
+Route::resource('desas', App\Http\Controllers\API\DesaAPIController::class);
+
+
+Route::resource('tes', App\Http\Controllers\API\TesAPIController::class);
