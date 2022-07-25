@@ -5,12 +5,12 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                   @lang('models/desas.plural')
+                   <h4>Desa</h4>
                 </div>
                 <div class="col-sm-6">
                     <a class="btn btn-primary float-right"
                        href="{{ route('desas.create') }}">
-                         @lang('crud.add_new')
+                         Tambah Desa
                     </a>
                 </div>
             </div>
@@ -29,7 +29,7 @@
 
                 <div class="card-footer clearfix float-right">
                     <div class="float-right">
-                        
+
                     </div>
                 </div>
             </div>
