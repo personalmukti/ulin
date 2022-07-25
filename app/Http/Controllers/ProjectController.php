@@ -7,6 +7,7 @@ use App\Http\Requests;
 use App\Http\Requests\CreateProjectRequest;
 use App\Http\Requests\UpdateProjectRequest;
 use App\Repositories\ProjectRepository;
+use Illuminate\Support\Facades\Auth;
 use Flash;
 use App\Http\Controllers\AppBaseController;
 use Response;
@@ -30,6 +31,9 @@ class ProjectController extends AppBaseController
      */
     public function index(ProjectDataTable $projectDataTable)
     {
+        if(Auth::user()->role=='user') {
+
+        }
         return $projectDataTable->render('projects.index');
     }
 
