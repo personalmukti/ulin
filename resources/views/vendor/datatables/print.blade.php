@@ -27,7 +27,7 @@
                         @if(is_string($value) || is_numeric($value))
                             <td>{!! $value !!}</td>
                         @else
-                            <td></td>
+                            <td><img src="{!! $value !!}" height="50"/></td>
                         @endif
                     @endforeach
                 </tr>

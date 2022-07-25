@@ -1,6 +1,6 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <a href="{{ url('/home') }}" class="brand-link">
-        <img src="assets/dtox-1.0.0/images/logo.png"
+        <img src="{{ config('app.url') }}assets/dtox-1.0.0/images/logo.png"
              alt="{{ config('app.name') }} Logo"
              class="brand-image img-circle elevation-3">
         <span class="brand-text font-weight-light">{{ config('app.name') }}</span>
