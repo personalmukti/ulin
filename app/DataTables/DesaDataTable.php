@@ -89,11 +89,11 @@ class DesaDataTable extends DataTable
     protected function getColumns()
     {
         return [
-            'id' => new Column(['title' => __('models/desas.fields.id'), 'data' => 'id','searchable' => false]),
-            'namadesa' => new Column(['title' => __('models/desas.fields.namadesa'), 'data' => 'namadesa','searchable' => false]),
-            'namakepaladesa' => new Column(['title' => __('models/desas.fields.namakepaladesa'), 'data' => 'namakepaladesa','searchable' => false]),
-            'alamatdesa' => new Column(['title' => __('models/desas.fields.alamatdesa'), 'data' => 'alamatdesa','searchable' => false]),
-            'keterangan' => new Column(['title' => __('models/desas.fields.keterangan'), 'data' => 'keterangan','searchable' => false])
+            'id' => new Column(['title' => __('ID'), 'data' => 'id','searchable' => false]),
+            'namadesa' => new Column(['title' => __('Nama Desa'), 'data' => 'namadesa','searchable' => false]),
+            'namakepaladesa' => new Column(['title' => __('Nama Kepala Desa'), 'data' => 'namakepaladesa','searchable' => false]),
+            'alamatdesa' => new Column(['title' => __('Alamat Desa'), 'data' => 'alamatdesa','searchable' => false]),
+            'keterangan' => new Column(['title' => __('Keterangan'), 'data' => 'keterangan','searchable' => false])
         ];
     }
 
