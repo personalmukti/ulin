@@ -27,7 +27,7 @@ class PerencanaanDataTable extends DataTable
         ->editColumn('pelaporan', '<button class="btn btn-primary">{{$pelaporan}}</button> ')
         ->escapeColumns('pelaporan')
       ;
-       
+
     }
 
     /**
@@ -57,7 +57,7 @@ class PerencanaanDataTable extends DataTable
                 'stateSave' => true,
                 'order'     => [[0, 'desc']],
                 'buttons'   => [
-                   
+
                     [
                        'extend' => 'export',
                        'className' => 'btn btn-default btn-sm no-corner',
