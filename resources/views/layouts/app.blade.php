@@ -143,6 +143,21 @@
     $("input[data-bootstrap-switch]").each(function(){
         $(this).bootstrapSwitch('state', $(this).prop('checked'));
     });
+
+
+  $(function () {
+    // Summernote
+    $('#alamatdesa').summernote({
+        height: 200
+    })
+  })
+
+  $(function () {
+    // Summernote
+    $('#keterangan').summernote({
+        height: 200
+    })
+  })
 </script>
 
 @stack('third_party_scripts')
