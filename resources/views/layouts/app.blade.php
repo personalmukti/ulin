@@ -34,6 +34,8 @@
           integrity="sha512-aEe/ZxePawj0+G2R+AaIxgrQuKT68I28qh+wgLrcAJOz3rxCP+TwrK5SPN+E5I+1IQjNtcfvb96HDagwrKRdBw=="
           crossorigin="anonymous"/>
 
+    <script src="{{ config('app.url') }}assets/dtox-1.0.0/plugins/summernote/summernote-bs4.min.js"></script>
+
     @stack('third_party_stylesheets')
 
     @stack('page_css')
