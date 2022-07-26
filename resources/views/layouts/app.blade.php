@@ -36,7 +36,6 @@
 
     <link rel="stylesheet" href="{{ config('app.url') }}assets/dtox-1.0.0/plugins/summernote/summernote-bs4.min.css">
 
-
     @stack('third_party_stylesheets')
 
     @stack('page_css')

@@ -49,11 +49,7 @@ class DesaDataTable extends DataTable
                 'stateSave' => true,
                 'order'     => [[0, 'desc']],
                 'buttons'   => [
-                    [
-                       'extend' => 'create',
-                       'className' => 'btn btn-default btn-sm no-corner',
-                       'text' => '<i class="fa fa-plus"></i> ' .__('auth.app.create').''
-                    ],
+
                     [
                        'extend' => 'export',
                        'className' => 'btn btn-default btn-sm no-corner',
@@ -90,10 +86,10 @@ class DesaDataTable extends DataTable
     {
         return [
             'id' => new Column(['title' => __('ID'), 'data' => 'id','searchable' => false]),
-            'namadesa' => new Column(['title' => __('Nama Desa'), 'data' => 'namadesa','searchable' => false]),
-            'namakepaladesa' => new Column(['title' => __('Nama Kepala Desa'), 'data' => 'namakepaladesa','searchable' => false]),
-            'alamatdesa' => new Column(['title' => __('Alamat Desa'), 'data' => 'alamatdesa','searchable' => false]),
-            'keterangan' => new Column(['title' => __('Keterangan'), 'data' => 'keterangan','searchable' => false])
+            'namadesa' => new Column(['title' => __('Nama Desa'), 'data' => 'namadesa','searchable' => true]),
+            'namakepaladesa' => new Column(['title' => __('Nama Kepala Desa'), 'data' => 'namakepaladesa','searchable' => true]),
+            'alamatdesa' => new Column(['title' => __('Alamat Desa'), 'data' => 'alamatdesa','searchable' => true]),
+            'keterangan' => new Column(['title' => __('Keterangan'), 'data' => 'keterangan','searchable' => true])
         ];
     }
 
