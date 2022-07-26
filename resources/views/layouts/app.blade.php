@@ -34,7 +34,8 @@
           integrity="sha512-aEe/ZxePawj0+G2R+AaIxgrQuKT68I28qh+wgLrcAJOz3rxCP+TwrK5SPN+E5I+1IQjNtcfvb96HDagwrKRdBw=="
           crossorigin="anonymous"/>
 
-    <script src="{{ config('app.url') }}assets/dtox-1.0.0/plugins/summernote/summernote-bs4.min.js"></script>
+    <link rel="stylesheet" href="{{ config('app.url') }}assets/dtox-1.0.0/plugins/summernote/summernote-bs4.min.css">
+
 
     @stack('third_party_stylesheets')
 
@@ -136,6 +137,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/1.3/bootstrapSwitch.min.js"
         integrity="sha512-DAc/LqVY2liDbikmJwUS1MSE3pIH0DFprKHZKPcJC7e3TtAOzT55gEMTleegwyuIWgCfOPOM8eLbbvFaG9F/cA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="{{ config('app.url') }}assets/dtox-1.0.0/plugins/summernote/summernote-bs4.min.js"></script>
 
 <script>
     $(function () {
