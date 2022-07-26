@@ -67,7 +67,7 @@
                              alt="User Image">
                         <p>
                             {{ Auth::user()->name }}
-                            <small>@lang('auth.app.member_since') {{ Auth::user()->created_at->format('M. Y') }}</small>
+                            <small>Aktif sejak {{ Auth::user()->created_at->format('M. Y') }}</small>
                         </p>
                     </li>
                     <!-- Menu Footer-->

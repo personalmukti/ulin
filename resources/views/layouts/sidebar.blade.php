@@ -1,4 +1,4 @@
-<aside class="main-sidebar elevation-4 bg-sidebar" style="background-image: url(assets/dtox-1.0.0/images/backgrounds/about-bg.png); background-size:100% 110%;">
+<aside class="main-sidebar elevation-4 bg-sidebar" style="background-image: url({{ config('app.url') }}assets/dtox-1.0.0/images/backgrounds/about-bg.png); background-size:100% 110%;">
     <a href="{{ url('/home') }}" class="brand-link">
         <img src="{{ config('app.url') }}assets/dtox-1.0.0/images/logo.png"
              alt="{{ config('app.name') }} Logo"

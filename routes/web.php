@@ -15,7 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\Landing::class, 'index'])->name('homepage');
 
-Route::get('/our-works', [App\Http\Controllers\Landing::class, 'projects'])->name('project');
 
 /*Route::get('/', function () {
     return view('welcome');
@@ -42,11 +41,6 @@ Route::post(
 )->name('io_generator_builder_generate_from_file');
 
 Route::resource('projects', App\Http\Controllers\ProjectController::class);
-
-
-
-
-Route::resource('perencanaans', App\Http\Controllers\PerencanaanController::class);
 
 
 Route::resource('desas', App\Http\Controllers\DesaController::class);
