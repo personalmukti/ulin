@@ -19,7 +19,15 @@ class PerencanaanDataTable extends DataTable
     {
         $dataTable = new EloquentDataTable($query);
 
-        return $dataTable->addColumn('action', 'perencanaans.datatables_actions');
+        return $dataTable->addColumn('action', 'perencanaans.datatables_actions')
+        ->editColumn('perencanaan', '<span class="badge badge-warning">{{$perencanaan}}</span> ')
+        ->escapeColumns('perencanaan')
+        ->editColumn('pelaksanaan', '<span class="badge badge-warning">{{$pelaksanaan}}</span> ')
+        ->escapeColumns('pelaksanaan')
+        ->editColumn('pelaporan', '<button class="btn btn-primary">{{$pelaporan}}</button> ')
+        ->escapeColumns('pelaporan')
+      ;
+       
     }
 
     /**
