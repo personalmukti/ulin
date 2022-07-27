@@ -31,10 +31,11 @@
     <![endif]-->
 
 </head>
-<body class="hold-transition login-page">
+<body class="hold-transition login-page bg-page" style="background-image: url(assets/dtox-1.0.0/images/backgrounds/service-page.png)">
 <div class="login-box">
     <div class="login-logo">
-        <a href="{{ url('/home') }}"><b>{{ config('app.name') }}</b></a>
+        <a href="{{ url('/home') }}">
+        <img src="assets/dtox-1.0.0/images/logo.png" width="100px" height="100px" alt="lock-alt"></a>
     </div>
 
     <!-- /.login-logo -->
