@@ -16,3 +16,21 @@
 
 
 
+
+
+
+
+<li class="nav-item">
+    <a href="{{ route('perencanaans.index') }}"
+       class="nav-link {{ Request::is('perencanaans*') ? 'active' : '' }}">
+        <p>@lang('models/perencanaans.plural')</p>
+    </a>
+</li>
+
+<li class="nav-item">
+    <a href="{{ route('dokumentasis.index') }}"
+       class="nav-link {{ Request::is('dokumentasis*') ? 'active' : '' }}">
+        <p>@lang('models/dokumentasis.plural')</p>
+    </a>
+</li>
+

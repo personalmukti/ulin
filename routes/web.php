@@ -44,3 +44,13 @@ Route::post(
 Route::resource('desas', App\Http\Controllers\DesaController::class);
 
 
+
+
+
+
+
+
+Route::resource('perencanaans', App\Http\Controllers\PerencanaanController::class);
+
+
+Route::resource('dokumentasis', App\Http\Controllers\DokumentasiController::class);

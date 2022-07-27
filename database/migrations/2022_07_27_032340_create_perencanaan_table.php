@@ -16,7 +16,7 @@ class CreatePerencanaanTable extends Migration
     {
         Schema::create('perencanaan', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('desa');
+            $table->string('desa');
             $table->string('perencanaan');
             $table->string('pelaksanaan');
             $table->string('pelaporan');

@@ -24,10 +24,17 @@ Route::resource('projects', App\Http\Controllers\API\ProjectAPIController::class
 
 
 
-Route::resource('perencanaans', App\Http\Controllers\API\PerencanaanAPIController::class);
 
 
 Route::resource('desas', App\Http\Controllers\API\DesaAPIController::class);
 
 
 Route::resource('tes', App\Http\Controllers\API\TesAPIController::class);
+
+
+
+
+Route::resource('perencanaans', App\Http\Controllers\API\PerencanaanAPIController::class);
+
+
+Route::resource('dokumentasis', App\Http\Controllers\API\DokumentasiAPIController::class);
