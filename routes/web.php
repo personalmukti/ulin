@@ -40,10 +40,7 @@ Route::post(
     '\InfyOm\GeneratorBuilder\Controllers\GeneratorBuilderController@generateFromFile'
 )->name('io_generator_builder_generate_from_file');
 
-Route::resource('projects', App\Http\Controllers\ProjectController::class);
-
 
 Route::resource('desas', App\Http\Controllers\DesaController::class);
 
 
-Route::resource('tes', App\Http\Controllers\TesController::class);
