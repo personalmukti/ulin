@@ -1,4 +1,4 @@
-<li class="nav-header"># Content Management</li>
+<li class="nav-header"># Utama</li>
 
 
 @if(Auth::user()->role=='admin')
@@ -10,6 +10,8 @@
 </li>
 
 @endif
+
+<li class="nav-header"># Pengaturan</li>
 
 
 
