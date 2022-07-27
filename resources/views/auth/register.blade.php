@@ -30,10 +30,10 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body class="hold-transition register-page" style="background-image: url(assets/dtox-1.0.0/images/backgrounds/service-page.png)">
+<body class="hold-transition register-page">
 <div class="register-box">
     <div class="register-logo">
-        <a href="{{ url('/home') }}"><img src="assets/dtox-1.0.0/images/logo.png" width="100px" height="100px" alt="lock-alt"></a>
+        <a href="{{ url('/home') }}"><b>{{ config('app.name') }}</b></a>
     </div>
 
     <div class="card">

@@ -34,8 +34,6 @@
           integrity="sha512-aEe/ZxePawj0+G2R+AaIxgrQuKT68I28qh+wgLrcAJOz3rxCP+TwrK5SPN+E5I+1IQjNtcfvb96HDagwrKRdBw=="
           crossorigin="anonymous"/>
 
-    <link rel="stylesheet" href="{{ config('app.url') }}assets/dtox-1.0.0/plugins/summernote/summernote-bs4.min.css">
-
     @stack('third_party_stylesheets')
 
     @stack('page_css')
@@ -55,19 +53,19 @@
         <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown user-menu">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                    <img src="{{ config('app.url') }}assets/dtox-1.0.0/images/admin.png"
+                    <img src="https://assets.infyom.com/logo/blue_logo_150x150.png"
                          class="user-image img-circle elevation-2" alt="User Image">
                     <span class="d-none d-md-inline">{{ Auth::user()->name }}</span>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                     <!-- User image -->
                     <li class="user-header bg-primary">
-                        <img src="{{ config('app.url') }}assets/dtox-1.0.0/images/admin.png"
+                        <img src="https://assets.infyom.com/logo/blue_logo_150x150.png"
                              class="img-circle elevation-2"
                              alt="User Image">
                         <p>
                             {{ Auth::user()->name }}
-                            <small>Aktif sejak {{ Auth::user()->created_at->format('M. Y') }}</small>
+                            <small>@lang('auth.app.member_since') {{ Auth::user()->created_at->format('M. Y') }}</small>
                         </p>
                     </li>
                     <!-- Menu Footer-->
@@ -97,7 +95,13 @@
     </div>
 
     <!-- Main Footer -->
-    @include('layouts.footer')
+    <footer class="main-footer">
+        <div class="float-right d-none d-sm-block">
+            <b>Version</b> 3.1.0
+        </div>
+        <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights
+        reserved.
+    </footer>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
@@ -137,8 +141,6 @@
         integrity="sha512-DAc/LqVY2liDbikmJwUS1MSE3pIH0DFprKHZKPcJC7e3TtAOzT55gEMTleegwyuIWgCfOPOM8eLbbvFaG9F/cA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="{{ config('app.url') }}assets/dtox-1.0.0/plugins/summernote/summernote-bs4.min.js"></script>
-
 <script>
     $(function () {
         bsCustomFileInput.init();
@@ -147,21 +149,6 @@
     $("input[data-bootstrap-switch]").each(function(){
         $(this).bootstrapSwitch('state', $(this).prop('checked'));
     });
-
-
-  $(function () {
-    // Summernote
-    $('#alamatdesa').summernote({
-        height: 200
-    })
-  })
-
-  $(function () {
-    // Summernote
-    $('#keterangan').summernote({
-        height: 200
-    })
-  })
 </script>
 
 @stack('third_party_scripts')
