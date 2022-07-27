@@ -28,5 +28,5 @@
 <!-- Keterangan Field -->
 <div class="form-group col-sm-12 col-lg-12">
     {!! Form::label('keterangan', __('models/perencanaans.fields.keterangan').':') !!}
-    {!! Form::textarea('keterangan', null, ['class' => 'form-control']) !!}
+    {!! Form::textarea('keterangan', null, ['id' => 'keterangan', 'class' => 'form-control']) !!}
 </div>

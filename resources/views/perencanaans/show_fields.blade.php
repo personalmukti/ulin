@@ -31,7 +31,7 @@
 <!-- Keterangan Field -->
 <div class="col-sm-12">
     {!! Form::label('keterangan', __('models/perencanaans.fields.keterangan').':') !!}
-    <p>{{ $perencanaan->keterangan }}</p>
+    <p>{!! $perencanaan->keterangan !!}</p>
 </div>
 
 <!-- Created At Field -->

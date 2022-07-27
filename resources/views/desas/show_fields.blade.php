@@ -19,13 +19,13 @@
 <!-- Alamatdesa Field -->
 <div class="col-sm-12">
     {!! Form::label('alamatdesa', __('Alamat Desa').':') !!}
-    <p>{{ $desa->alamatdesa }}</p>
+    <p>{!! $desa->alamatdesa !!}</p>
 </div>
 
 <!-- Keterangan Field -->
 <div class="col-sm-12">
     {!! Form::label('keterangan', __('Keterangan').':') !!}
-    <p>{{ $desa->keterangan }}</p>
+    <p>{!! $desa->keterangan !!}</p>
 </div>
 
 <!-- Created At Field -->

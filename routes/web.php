@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [App\Http\Controllers\Landing::class, 'index'])->name('homepage');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
 /*Route::get('/', function () {
@@ -39,7 +39,6 @@ Route::post(
     'generator_builder/generate-from-file',
     '\InfyOm\GeneratorBuilder\Controllers\GeneratorBuilderController@generateFromFile'
 )->name('io_generator_builder_generate_from_file');
-
 
 Route::resource('desas', App\Http\Controllers\DesaController::class);
 

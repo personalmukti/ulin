@@ -19,7 +19,11 @@ class DesaDataTable extends DataTable
     {
         $dataTable = new EloquentDataTable($query);
 
-        return $dataTable->addColumn('action', 'desas.datatables_actions');
+        return $dataTable->addColumn('action', 'desas.datatables_actions')
+        ->editColumn('alamatdesa', '{!! $alamatdesa !!}')
+        ->escapeColumns('alamatdesa')
+        ->editColumn('keterangan', '{!! $keterangan !!}')
+        ->escapeColumns('keterangan');
     }
 
     /**

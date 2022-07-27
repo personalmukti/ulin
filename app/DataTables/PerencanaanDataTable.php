@@ -20,14 +20,14 @@ class PerencanaanDataTable extends DataTable
         $dataTable = new EloquentDataTable($query);
 
         return $dataTable->addColumn('action', 'perencanaans.datatables_actions')
-        ->editColumn('perencanaan', '<a href="dokumentasis/" class="btn btn-warning"><i class="fa fa-list" aria-hidden="true"></i>Tambah Data</a><span class="badge badge-warning float-right">{{$perencanaan}}</span> ')
+        ->editColumn('perencanaan', '<a href="dokumentasis/" class="btn btn-info btn-sm"><i class="fa fa-list" aria-hidden="true"></i>Tambah Data</a><span class="badge badge-warning float-right">{{$perencanaan}}</span> ')
         ->escapeColumns('perencanaan')
-        ->editColumn('pelaksanaan', '<a href="dokumentasis/" class="btn btn-warning"><i class="fa fa-list" aria-hidden="true"></i>Tambah Data</a><span class="badge badge-warning float-right">{{$pelaksanaan}}</span> ')
+        ->editColumn('pelaksanaan', '<a href="dokumentasis/" class="btn btn-info btn-sm"><i class="fa fa-list" aria-hidden="true"></i>Tambah Data</a><span class="badge badge-warning float-right">{{$pelaksanaan}}</span> ')
         ->escapeColumns('pelaksanaan')
-        ->editColumn('pelaporan', '<a href="dokumentasis/" class="btn btn-warning"><i class="fa fa-list" aria-hidden="true"></i>Tambah Data</a><span class="badge badge-warning float-right">{{$pelaporan}}</span> ')
+        ->editColumn('pelaporan', '<a href="dokumentasis/" class="btn btn-info btn-sm"><i class="fa fa-list" aria-hidden="true"></i>Tambah Data</a><span class="badge badge-warning float-right">{{$pelaporan}}</span> ')
         ->escapeColumns('pelaporan')
-        
-        
+
+
         ;
     }
 
@@ -58,11 +58,6 @@ class PerencanaanDataTable extends DataTable
                 'stateSave' => true,
                 'order'     => [[0, 'desc']],
                 'buttons'   => [
-                    [
-                       'extend' => 'create',
-                       'className' => 'btn btn-default btn-sm no-corner',
-                       'text' => '<i class="fa fa-plus"></i> ' .__('auth.app.create').''
-                    ],
                     [
                        'extend' => 'export',
                        'className' => 'btn btn-default btn-sm no-corner',
