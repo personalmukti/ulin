@@ -28,3 +28,10 @@
     </a>
 </li> -->
 
+<li class="nav-item">
+    <a href="{{ route('kelembagaans.index') }}"
+       class="nav-link {{ Request::is('kelembagaans*') ? 'active' : '' }}">
+        <p>@lang('models/kelembagaans.plural')</p>
+    </a>
+</li>
+

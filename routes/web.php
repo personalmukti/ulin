@@ -53,3 +53,6 @@ Route::resource('perencanaans', App\Http\Controllers\PerencanaanController::clas
 
 
 Route::resource('dokumentasis', App\Http\Controllers\DokumentasiController::class);
+
+
+Route::resource('kelembagaans', App\Http\Controllers\KelembagaanController::class);

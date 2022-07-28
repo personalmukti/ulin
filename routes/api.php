@@ -38,3 +38,6 @@ Route::resource('perencanaans', App\Http\Controllers\API\PerencanaanAPIControlle
 
 
 Route::resource('dokumentasis', App\Http\Controllers\API\DokumentasiAPIController::class);
+
+
+Route::resource('kelembagaans', App\Http\Controllers\API\KelembagaanAPIController::class);
