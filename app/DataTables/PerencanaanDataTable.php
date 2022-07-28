@@ -6,6 +6,7 @@ use App\Models\Perencanaan;
 use Yajra\DataTables\Services\DataTable;
 use Yajra\DataTables\EloquentDataTable;
 use Yajra\DataTables\Html\Column;
+use Illuminate\Support\Facades\Auth;
 
 class PerencanaanDataTable extends DataTable
 {
@@ -39,7 +40,12 @@ class PerencanaanDataTable extends DataTable
      */
     public function query(Perencanaan $model)
     {
+        if(Auth::user()->role=='admin') {
         return $model->newQuery();
+        }else{
+           $query =$model->newQuery();
+            return $query->where('desa', Auth::user()->name);
+        }
     }
 
     /**

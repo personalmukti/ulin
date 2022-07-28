@@ -30,7 +30,12 @@ class KelembagaanDataTable extends DataTable
      */
     public function query(Kelembagaan $model)
     {
-        return $model->newQuery();
+        if(Auth::user()->role=='admin') {
+            return $model->newQuery();
+            }else{
+               $query =$model->newQuery();
+                return $query->where('desa', Auth::user()->name);
+            }
     }
 
     /**

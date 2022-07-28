@@ -30,7 +30,12 @@ class DokumentasiDataTable extends DataTable
      */
     public function query(Dokumentasi $model)
     {
-        return $model->newQuery();
+        if(Auth::user()->role=='admin') {
+            return $model->newQuery();
+            }else{
+               $query =$model->newQuery();
+                return $query->where('desa', Auth::user()->name);
+            }
     }
 
     /**
