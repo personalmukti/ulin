@@ -5,14 +5,16 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                   @lang('models/kelembagaans.plural')
+                   <h4>@lang('models/kelembagaans.singular')</h4>
                 </div>
+                @if (Auth::user()->role=='user')
                 <div class="col-sm-6">
                     <a class="btn btn-primary float-right"
                        href="{{ route('kelembagaans.create') }}">
                          @lang('crud.add_new')
                     </a>
                 </div>
+                @endif
             </div>
         </div>
     </section>
@@ -29,7 +31,7 @@
 
                 <div class="card-footer clearfix float-right">
                     <div class="float-right">
-                        
+
                     </div>
                 </div>
             </div>

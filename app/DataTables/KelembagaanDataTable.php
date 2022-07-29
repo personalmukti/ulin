@@ -20,7 +20,9 @@ class KelembagaanDataTable extends DataTable
     {
         $dataTable = new EloquentDataTable($query);
 
-        return $dataTable->addColumn('action', 'kelembagaans.datatables_actions');
+        return $dataTable->addColumn('action', 'kelembagaans.datatables_actions')
+        ->editColumn('keterangan', '{!! $keterangan !!}')
+        ->escapeColumns('keterangan');
     }
 
     /**
