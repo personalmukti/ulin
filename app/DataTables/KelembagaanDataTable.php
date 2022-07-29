@@ -6,6 +6,7 @@ use App\Models\Kelembagaan;
 use Yajra\DataTables\Services\DataTable;
 use Yajra\DataTables\EloquentDataTable;
 use Yajra\DataTables\Html\Column;
+use Illuminate\Support\Facades\Auth;
 
 class KelembagaanDataTable extends DataTable
 {

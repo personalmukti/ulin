@@ -6,6 +6,7 @@ use App\Models\Dokumentasi;
 use Yajra\DataTables\Services\DataTable;
 use Yajra\DataTables\EloquentDataTable;
 use Yajra\DataTables\Html\Column;
+use Illuminate\Support\Facades\Auth;
 
 class DokumentasiDataTable extends DataTable
 {
