@@ -3,7 +3,7 @@
 @endpush
 
 <div class="container-fluid">
-    {!! $dataTable->table(['width' => '100%', 'class' => 'table table-striped table-bordered']) !!}
+            {!! $dataTable->table(['width' => '100%', 'class' => 'table table-striped table-bordered table-responsive']) !!}
 </div>
 
 @push('third_party_scripts')

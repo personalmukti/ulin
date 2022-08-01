@@ -10,6 +10,7 @@ use App\Repositories\DokumentasiRepository;
 use Flash;
 use App\Http\Controllers\AppBaseController;
 use Response;
+use Illuminate\Support\Facades\Storage;
 
 class DokumentasiController extends AppBaseController
 {
@@ -57,22 +58,21 @@ class DokumentasiController extends AppBaseController
 
             //Validate the uploaded file
             $Validation = $request->validate([
-    
+
                 'file' => 'required|file|mimes:pdf|max:30000'
             ]);
-    
+
             // cache the file
             $file = $Validation['file'];
-    
+
             // generate a new filename. getClientOriginalExtension() for the file extension
             $filename = 'dokumentasi-' . time() . '.' . $file->getClientOriginalExtension();
-    
+
             // save to storage/app/infrastructure as the new $filename
-            $InfrasFileName = $file->storeAs('aset', $filename);
-    
-            $path = $InfrasFileName;
+            $file-> move(public_path('public/storage'), $filename);
+            $path = "/public/storage/".$filename;
         }
-    
+
         $input['file'] = $path;
 
         $dokumentasi = $this->dokumentasiRepository->create($input);

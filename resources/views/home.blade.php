@@ -7,7 +7,7 @@
         <div class="col-lg-3 col-6">
             <div class="small-box bg-info">
                 <div class="inner">
-                    <h3>0</h3>
+                    <h3>5</h3>
                     <p>Desa</p>
                 </div>
                 <div class="icon">
@@ -20,7 +20,8 @@
         <div class="col-lg-3 col-6">
             <div class="small-box bg-success">
                 <div class="inner">
-                    <h3>0</h3>
+
+                    <h3>{{ $perencanaanapprove }}</h3>
                     <p>Perencanaan</p>
                 </div>
                 <div class="icon">
@@ -33,7 +34,7 @@
         <div class="col-lg-3 col-6">
             <div class="small-box bg-warning">
                 <div class="inner">
-                    <h3>0</h3>
+                    <h3>{{ $pelaksanaanapprove }}</h3>
                     <p>Pelaksanaan</p>
                 </div>
                 <div class="icon">
@@ -46,7 +47,7 @@
         <div class="col-lg-3 col-6">
             <div class="small-box bg-danger">
                 <div class="inner">
-                    <h3>0</h3>
+                    <h3>{{ $pelaporanapprove }}</h3>
                     <p>Pelaporan</p>
                 </div>
                 <div class="icon">
@@ -86,7 +87,7 @@
                                 </ul>
                             </p>
 
-                            <p>Secara geografi sebagian besar wilayah Kecamatan Mekarmukti terletak di daerah tepi pantai, meliputi Desa Karangwangi, Desa Cijayana, Desa Jagabaya. Sementara, Desa yang berada Lereng atau Punggung Bukit terdiri dari Desa Mekarmukti dan Desa Mekarsari.</p>
+                            <p>Secara geografi sebagian besar wilayah Kecamatan Mekarmukti terletak di daerah tepi pantai, meliputi 5 desa yang menjadi bagian dari wilayah Kecamatan Mekarmukti.</p>
                         </div>
                     </div>
               </div><!-- /.card-body -->
@@ -96,13 +97,22 @@
               <div class="card-header ui-sortable-handle" style="cursor: move;">
                 <h3 class="card-title">
                   <i class="fas fa-chart-pie mr-1"></i>
-                  Profil Desa [Nama Desa]
+                  Daftar Desa
                 </h3>
 
               </div><!-- /.card-header -->
               <div class="card-body">
                 <div class="tab-content p-0">
-                  asdsakdklasjdlkjsakdj
+                  <p>Berikut ini adalah daftar desa yang termasuk ke dalam wilayah Kecamatan Mekarmukti:</p>
+                  <p>
+                    <ul>
+                      <li>Desa Karangwangi</li>
+                      <li>Desa Cijayana</li>
+                      <li>Desa Jagabaya</li>
+                      <li>Desa Mekarmukti</li>
+                      <li>Desa Mekarsari</li>
+                    </ul>
+                  </p>
                 </div>
               </div><!-- /.card-body -->
             </div>
@@ -136,8 +146,7 @@
               <div class="card-body">
                 <div class="col-12">
                     <div>
-     <iframe width="650" height="400" frameborder="0" src="https://www.bing.com/maps/embed?h=500&w=600&cp=-7.497643361787198~107.5808848978379&lvl=15.804380661211573&typ=d&sty=h&src=SHELL&FORM=MBEDV8" scrolling="no">
-     </iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31643.306508290465!2d107.55526302633966!3d-7.529817889757899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e662416bd651ba9%3A0x6db54399bf223a0a!2sKec.%20Mekarmukti%2C%20Kabupaten%20Garut%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1659324891675!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </div>
                 </div>

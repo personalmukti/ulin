@@ -1,4 +1,4 @@
-<li class="nav-header"># Utama</li>
+<li class="nav-header"># Home</li>
 
 
 @if(Auth::user()->role=='admin')

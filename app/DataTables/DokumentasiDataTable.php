@@ -20,7 +20,11 @@ class DokumentasiDataTable extends DataTable
     {
         $dataTable = new EloquentDataTable($query);
 
-        return $dataTable->addColumn('action', 'dokumentasis.datatables_actions');
+        return $dataTable->addColumn('action', 'dokumentasis.datatables_actions')
+        ->editColumn('file', '<a href="{{ $file }}" class="btn btn-info btn-sm"><i class="fas fa-download"></i> Download</a>')
+        ->escapeColumns('file')
+        ->editColumn('keterangan', '{!! $keterangan !!}')
+        ->escapeColumns('keterangan');
     }
 
     /**
